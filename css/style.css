@@ -1,0 +1,937 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-family: 'arial';
+}
+
+img{
+    max-width:100%;
+}
+
+.clearfloat,.clearboth{
+    clear:both;
+    line-height:0;
+    height:0;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+a{
+    text-decoration:none;
+    outline: none;
+}
+
+h1,h2,h3,h4,h5,h6,li,img,p,ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    border:none;
+    border-width:0px;
+    outline: none;
+}
+
+/***************************
+//
+//Header
+//
+/**************************/
+
+
+.blueBackgroundDiv{
+    background:url('../images/BG.jpg');
+    background-size:100%;
+    background-position:center;
+    width:100%;
+    height: 487px;
+    margin-bottom: 0px;
+}
+
+.pageCenterDiv{
+    max-width:961px;
+    margin:0 auto;
+}
+
+.headerDiv{
+    width:100%;
+}
+
+.logoDiv{
+    /*width:16.12903225806452%;*/
+    float:left;
+    position:absolute;
+    z-index:14;
+    width:155px;
+    height: 151px;
+
+}
+
+#cssmenu .headTabSelected {
+    color:#1CA4A0;
+}
+
+.linkedInImageDiv{
+    background:none;
+    margin-top: 17px;
+    width:29px;
+    height:29px;
+    background:url('../images/allIcons.png') no-repeat center;
+    background-position:-10px -1170px;
+    /*text-align: center;
+    margin: 25px auto;*/
+}
+
+/*****************************
+//
+//Banner
+//
+/****************************/
+
+
+.bannerDiv {  
+    position: relative;
+    border:3px solid #fff;
+    box-shadow: 0 1px 4px 0 rgba(28, 25, 26, 0.15);
+    width: 99.35%;
+    display: inline-block;
+}
+
+.cloudDiv{
+    background: none no-repeat scroll 0 0 #24A7A2;
+    border: 1px solid #DCDCDC;
+    margin-top: 10px;
+    min-height: 55px;
+    width: 99.80%;
+}
+
+.cloudTextDiv{    
+    color:#FFF;
+    padding:0 4px 0 2px;
+}
+
+.cloudTextFont{
+    font-size: 15pt;    
+}
+
+.cloudTextFont1{    
+    font-size: 14pt;
+}
+
+.cloudTextFont2{
+    font-size: 14pt;
+}
+
+.cloudTextFont3{
+    font-size: 11pt;
+}
+
+.cloudTextFont4{
+    font-size: 13pt;
+}
+
+.cloudTextDiv:hover{    
+    color:#800000;
+}
+
+.aboutIleadDiv{
+    width:100%;
+    margin-top:10px;	
+}
+
+.aboutIleadLeftDiv{
+    width:48%;	
+    float:left;
+}
+
+.ileadText{
+    font-size:15pt;
+    color:#1CA4A0;
+}
+
+.blueLineDiv{
+    border-bottom: 4px solid #D3EDEC;
+    width:100%;
+}
+
+.ileadDescriptionText{
+    font-size:11pt;
+    margin-top:10px;
+    width:100%;
+    text-align:justify;
+    color:#575757;
+    line-height:24px;
+}
+
+.readMoreDiv{
+    font-size:10pt;
+    margin-top:5px;
+    font-weight:bold;
+    width:17%;
+    text-align:justify;
+    text-decoration:underline;
+    color:#1CA4A0;
+    float:left;
+}
+
+.readMoreArrowDiv{
+    margin-top:9px;
+    float:left; 
+    width:2%;
+    background:url('../images/allIcons.png');
+    background-position: -5px -644px;
+    height:8px;
+    width:6px;
+}
+
+.arrowDiv{
+
+
+}
+
+.aboutIleadRightDiv{
+    width:48%;	
+    float:right;
+}
+
+.bottomBorderLineDiv{
+
+    border-bottom: 2px solid #C1D9D7;
+    margin-top:10px;
+}
+
+.rightDivBlueBackgroundDiv{
+    background:#91CFCC;
+    width:94%;	
+    padding:15px 15px 2px 15px;
+}
+
+.rightDivWhiteBackgroundDiv{
+    background:#FFF;
+    width:100%;	
+}
+
+.impactLeftDiv{
+    width:40%;
+    float:left;	
+}
+
+.impactImageDiv{
+    margin:12px 0 0 10%;
+    float:left;
+    width:24px;
+    height:26px;   
+    background: url('../images/allIcons.png') no-repeat;
+    background-position:-10px -1103px;
+}
+
+.impactTextDiv{
+    float:left;
+    width:50%;
+    font-size:13pt;
+    margin:7px 0 0 4%;
+}
+
+.leadImageDiv{
+    margin:12px 0 0 10%;
+    float:left;
+    height:23px;
+    width:23px;
+    background: url('../images/allIcons.png') no-repeat;
+    background-position:-10px -1137px;
+}
+
+.evolveImageDiv{
+    margin:12px 0 0 10%;
+    float:left;
+    height:21px;
+    width:21px;
+    background: url('../images/allIcons.png') no-repeat;
+    background-position:-10px -1072px;
+}
+
+.accelerateImageDiv{
+    margin:12px 0 0 10%;
+    float:left;
+    height:24px;
+    width:24px;
+    background: url('../images/allIcons.png') no-repeat;
+    background-position:-10px -655px;
+}
+
+.developImageDiv{
+    margin:12px 0 0 10%;
+    float:left;
+    height:19px;
+    width:21px;
+    background: url('../images/allIcons.png') no-repeat;
+    background-position:-10px -1041px;
+}
+
+.impactRightDIv{
+    float:right;
+    margin:25px 5% 25px 0;
+    width:42.25%;
+}
+
+.whiteBackgroundDropShadowDiv{
+    margin-top:0px;
+    width:100%;
+}
+
+.greyBorderLineDiv{
+    width:100%;
+    border:0.5px solid #DCDCDC ;
+    margin-top:10px;
+}
+
+.inceptionImageDiv{
+    float:left;
+    width:26%;
+    margin:10px 10px 2px 0;
+}
+
+
+.inceptionImageBorderDiv{
+    border:3px solid #fff;
+    box-shadow: 0 1px 4px 0 rgba(28, 25, 26, 0.15);   
+    margin-bottom: 0px;
+}
+
+
+.inceptionTextDiv{
+    margin-top:10px;
+    font-size:11pt;
+    width:100%;
+    text-align:justify;
+    color:#575757;
+    line-height:24px;
+
+}
+
+.assesmentDIv{
+    float: left;
+    margin: 50px 0 50px 2.5%;
+    width: 22%;	    
+}
+
+.assessmentImageDiv{
+
+    background: url('../images/allIcons.png') no-repeat;
+    background-position:-10px -705px;
+    height: 96px;
+    width:95px;
+    margin:0 auto;
+}
+.assesmentTextDiv{
+    font-size:11pt;
+    font-weight:bold;
+    margin-top:10px;
+    text-align: center;
+}
+
+.coachingImageDiv{    
+    background: url('../images/allIcons.png') no-repeat;
+    background-position:-10px -810px;
+    height: 96px;
+    width:95px;
+    margin:0 auto;
+}
+
+.consultantImageDiv{    
+    background: url('../images/allIcons.png') no-repeat;
+    background-position:-10px -936px;
+    height: 96px;
+    width:95px;
+    margin:0 auto;
+}
+
+.workshopImageDiv{    
+    background: url('../images/workshop.png') no-repeat;
+    height: 96px;
+    width:95px;
+    margin:0 auto;
+}
+
+.whatClientSayDiv{
+    width:100%;
+    margin-top:10px;    
+}
+
+.testimonialDiv{    
+    width:99%;
+    padding:10px;
+    background:#EAF6F6 no-repeat;
+}
+.testimonialImageDiv{    
+    float:left;
+    width:11.25%;
+}
+.testimonialTextDiv{    
+    float:right;
+    width:100%;
+    text-align: justify;
+}
+
+.testimonialCotationDiv{
+    font-size:11pt;
+    line-height:24px;
+    color:#575757;    
+}
+
+div.demo{
+    font-size:11pt;
+    color:#fff;
+    overflow:hidden;
+    max-width:100%;
+}
+
+
+
+/**************************
+//
+//Footer
+//
+/**************************/
+
+/*******320 Layout CSS*****/
+.mobileFooterDiv{  
+    display: none;
+}
+
+.contentDiv {
+    display: none;
+}
+
+/*******320 Layout CSS*****/
+
+.footerDiv{
+    background: none repeat scroll 0 0 #BDDAD8;
+    height: 50px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.copyRightDiv{
+    float:left;
+    width:37%;
+}
+
+.copyRightTextDiv{
+    line-height:50px;
+    color:#6E6E6E;
+    font-size:8pt;
+    text-align:left;
+    margin-left: 2%;
+
+}
+.footerNavTabDiv{
+    float: right;
+    width: 60%;
+    text-align: center;
+    color:#6E6E6E;
+}
+.footerContentDiv{
+    color: #6E6E6E;
+    font-size: 9pt;
+    line-height: 50px;
+    padding-left: 4px;
+    padding-right: 3px;
+    text-align: center;
+}
+.footerContentDiv:hover{
+    color:#1CA4A0;
+    cursor:pointer;
+}
+
+
+.footerTabSelected{
+    color:#1CA4A0;    
+}
+
+/*******************************
+//
+//About Us Page
+//
+/******************************/
+
+.backgroundDiv{
+    width:100%;
+    background:url('../images/background.jpg') repeat; 
+    margin-top: 0px;
+}
+.ileadGroupDiv{    
+    width:100%;
+    padding-top: 10px;   
+}
+
+.ileadAdvantageDiv{    
+    width:100%;
+    margin-top: 10px;   
+}
+
+.successImagesDiv{    
+    margin:25px 0 25px 1%;
+    float:left;
+    height:146px;
+    width:145px;
+    background: url('../images/success.png') no-repeat;
+    /*    background-position: -10px -1364px;*/
+}
+
+.equalSignDiv{    
+    float: left;
+    font-size: 30pt;
+    font-weight: bold;
+    height: 14px;
+    margin: 75px 4% 75px 1%;
+    width: 15px;
+}
+
+.plusSignDiv{    
+    float:left;
+    font-size: 30pt;
+    font-weight: bold;
+    margin:75px 1% 75px 1.5%;
+    width:15px;
+    height:14px;
+}
+
+.eiImagesDiv{    
+    margin:25px 0 25px 1%;
+    float:left;
+    height:146px;
+    width:145px;
+    background: url('../images/allIcons.png') no-repeat;
+    background-position: -10px -57px;
+}
+
+.mqImagesDiv{    
+    margin:25px 0 25px 1%;
+    float:left;
+    height:146px;
+    width:145px;
+    background: url('../images/allIcons.png') no-repeat;
+    background-position: -10px -499px;
+}
+
+.lqImagesDiv{    
+    margin:25px 0 25px 1%;
+    float:left;
+    height:146px;
+    width:145px;
+    background: url('../images/allIcons.png') no-repeat;
+    background-position: -10px -291px;
+}
+
+.mindSetImagesDiv{    
+    margin:25px 0 25px 1%;
+    float:left;
+    height:146px;
+    width:145px;
+    background: url('../images/mindset.png') no-repeat;
+}
+
+.cautationDiv {
+    background: none no-repeat scroll 0 0 #BDDAD8;
+    min-height: 30px;
+    line-height:2em;
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 98%;
+}
+
+.cautationTextDiv{
+    font-size: 11pt;
+    font-style: italic;
+}
+.coatSliceDiv{        
+    margin: 0 0 0 3%;
+    background:url('../images/allIcons.png');
+    background-position: -10px -916px;
+    height:13px;
+    width:10px;
+}
+
+
+/*******************************
+//
+//What We Do Page
+//
+/******************************/
+
+.whatWeDoDiv{    
+    width:100%;
+    margin-top: 15px;   
+}
+
+.ileadAdvantageDiv{    
+    width:100%;
+    margin-top: 10px;   
+}
+.assessmentsDiv{    
+    width:100%;
+    margin-top:10px;
+
+}
+
+.assesmentLeftImageDiv{    
+    float: left;
+    width: 10%;	
+}
+
+.assementImageTextDiv{    
+    font-size:11pt;
+    font-weight:bold;
+    text-align:center;
+}
+
+.assessmentDiscriptionDiv{    
+    float:right;
+    width:88%;
+    font-size:11pt;
+    text-align:justify;
+    color:#575757;
+    line-height:24px;
+}
+
+.textDiscriptionDiv{    
+    width:100%;
+    font-size:11pt;
+    text-align:justify;
+    color:#575757;
+    margin-top:10px;
+    line-height:24px;
+}
+
+/*******************************
+//
+//Who We Are Page
+//
+/******************************/
+.mainDiv{
+    width:100%;
+    margin-top: 10px;  
+}
+
+
+.globalPartnerDiv{
+    float:left;
+    width:20%;
+    margin-top: 10px;   
+    margin-right:45px;
+}
+
+.globalPartnerDiv1{
+    width:100%;
+    margin-top: 10px;   
+}
+
+.partnerMainDiv{    
+    width:100%;
+    padding:5px;
+    margin-right:3%;
+}
+
+.cityNameDiv{
+    text-align: center;
+    font-size:11pt;
+    font-weight: bold;
+    color:#A44821;    
+}
+
+.partnerImageDiv{    
+    margin:0 auto;
+    width:62%;
+}
+
+.imageBorder{
+    border:3px solid #fff;
+    box-shadow: 0 1px 4px 0 rgba(28, 25, 26, 0.15);
+}
+
+.imageBorder:hover{
+    border:3px solid #1CA4A0;
+    box-shadow: 0 1px 4px 0 rgba(28, 25, 26, 0.15);
+}
+
+.facilitorNameDiv{
+    text-align: center;
+    font-size:11pt;
+    font-weight: bold;
+    color:#1CA4A0;
+    margin-bottom: 5px;
+}
+
+.partnerDiv{    
+    width:28%;
+    float:left;
+    padding:5px;
+    margin-right: 1%; 
+}
+
+.imageBorderDiv{
+    border:3px solid #FFF;
+    box-shadow: 0 1px 4px 0 rgba(28, 25, 26, 0.15);
+    width:97.75%;
+    margin-bottom:0px;   
+    position: relative;
+}
+
+.imageBorderDiv1{
+    border:3px solid #FFF;
+    box-shadow: 0 1px 4px 0 rgba(28, 25, 26, 0.15);
+    width:97.75%;
+    margin-bottom:0px;   
+    position: relative;
+}
+
+.imageBorderDiv:hover{
+    border:3px solid #1CA4A0;
+    cursor:pointer;    
+}
+
+.nameBackgroundDiv{
+    background: url('../images/nameBackground.png') no-repeat;
+    height:55px;
+    width:100%;
+    margin-top:-24px; 
+    position:relative;
+    z-index: 10;
+
+}
+
+.nameDiv{
+    text-align: center;
+    line-height: 70px;
+    font-size: 11pt;
+    color:#FFF; 
+    font-weight: bold;
+}
+
+
+
+.globalPartnerDiscriptionDiv{    
+    width:97.75%;
+    margin-top:10px;
+    border:1px solid #1CA4A0;
+    padding:10px;
+    background:#FFF no-repeat;
+}
+
+.discriptionDiv{
+    width:100%;
+    text-align:justify;
+    font-size:11pt;
+    color:#575757;
+    line-height:24px;
+}
+
+/*.discriptionDiv{
+    width:70%;
+    margin-top:10px;
+    font-size:11pt;
+    color:#575757;
+    float:right;
+    text-align: justify;
+    color:#575757;
+}*/
+
+/*******************************
+//
+//ileadAdvantage Page
+//
+/******************************/
+
+.advantageDiv{    
+    width:100%;
+    margin-top: 10px;
+}
+
+.advantageImageDiv{    
+    width:42.50%;
+    margin-top:5px;
+    float:left;
+    border:2px solid #46AAA7;
+}
+
+.advantageTextDiv{
+    float:right;
+    font-size:11pt;
+    width:53%;
+    text-align:justify;
+    color:#575757;
+}
+
+/*********************************
+//
+// Contact Us
+//
+/*******************************/
+.contactMapDiv{
+    float:left;
+    width:40%;
+    margin-right:50px;
+    margin-top: 10px;
+}
+
+.contactFormDiv{
+    margin-right: 0;
+    width:54%;
+}
+
+.imgBorder{
+    border:2px solid #fff;
+    box-shadow: 0 1px 4px 0 rgba(28, 25, 26, 0.15);
+}
+
+.rightContactText{
+    color: #575757;
+    float: right;
+    font-size: 10pt;
+    line-height: 21px;
+    width: 80%;
+    margin-top: 5px;
+}
+
+.contactOuterDiv{
+    margin-top: 50px;
+    border-bottom: 1px dotted #DEDEDE;
+    padding-bottom: 10px;
+}
+
+.locationDiv{    
+    background:url('../images/allIcons.png');
+    background-position: -10px -255px;
+    height:34px;
+    width:26px;
+}
+
+.infoDiv{    
+    background:url('../images/allIcons.png');
+    background-position: -10px -213px;
+    height:27px;
+    width:32px;
+}
+
+.messageDiv{
+    background:url('../images/allIcons.png');
+    background-position: -10px -447px;
+    height:21px;
+    width:42px;    
+}
+
+.callDiv{    
+    background:url('../images/allIcons.png');
+    background-position: -10px -15px;
+    height:33px;
+    width:32px;
+}
+
+.leftarrowDiv{
+    float: left;
+    width: 20px;
+    margin-top: 5px;
+}
+
+.writeMeBox{
+    margin-top: 10px;
+}
+
+.homeWriteMeInputBox{
+    border: 1px solid #DEDEDE;
+    font-size: 11pt;
+    height: 25px;
+    padding: 5px;
+    width: 96%;
+}
+
+.homeTextArea{
+    border: 1px solid #DEDEDE;
+    font-size: 11pt;
+    height:85px;
+    padding: 5px;
+    width: 96%;
+    resize:none;
+}
+.salutationDiv{
+    border: 1px solid #DEDEDE;
+    font-size: 11pt;
+    height: 37.5px;
+    padding: 8px 5px 5px;
+    width: 12%; 
+}
+
+.contactUsInputBox{
+    background:#fff;
+    border: 1px solid #CCCCCC;
+}
+
+.sendButton{
+    background: none repeat scroll 0 0 #64DDCE;
+    color: #FFFFFF;
+    float: left;
+    font-size: 11pt;
+    height: 30px;
+    line-height: 33px;
+    margin-right: 10px;
+    text-align: center;
+    width: 25%;
+    cursor: pointer;
+    border:0;
+}
+
+.sendButton:hover{
+    background: #A44821;
+}
+
+.clearButton:hover{
+    background: none repeat scroll 0 0 #64DDCE;    
+}
+
+#messageBox1{
+    font-size:11pt;
+    color:#900;
+    margin-top: 10px;
+}
+
+.invalid{
+    color:#900;
+    font-size:10pt;
+}
+
+.successMsg{
+    color:#A44821;
+    font-size:13pt;
+    margin-top: 10px;
+}
+/******************************/
+
+/*********************************
+//
+// Program
+//
+/*******************************/
+
+.signatureSubContentDiv{    
+    margin:10px 0 0 5%;
+    width:90%;
+}
+
+.leadershipTextDiv{
+    font-size:14pt;
+    color:#A44821;
+}
+
+.subContentDiv{
+    margin:10px 0 0 5%;
+    width:90%;    
+}
+/*******************************/
+
